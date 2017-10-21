@@ -1,4 +1,4 @@
-# Truthiness of an element:
+# Truthiness of an element, True or False
 
 
 def print_truthiness(msg, exp):
@@ -6,20 +6,23 @@ def print_truthiness(msg, exp):
 
 
 print_truthiness("Testing True", True)
+# the keyword 'False' is False
 print_truthiness("Testing False", False)
-# for sequences
 
+# for sequences
 seq = []
+# an empty list is False
 print_truthiness("Empty list", seq)
 seq.append("The cat")
 print_truthiness("1 item list", seq)
 
-# for objects and numbers
+# for objects and numbers, zero is False, the others are True
 print_truthiness("Zero", 0)
 print_truthiness("Eleven", 11)
 print_truthiness("-Eleven", -11)
 
-# for None
+# for None, that is the thing that represents pointing to noting, is False
+# 'None' is not zero, but it's considered to be False
 print_truthiness("For none", None)
 
 
@@ -36,7 +39,7 @@ class AClass:
 
 
 a = AClass()
-
+# empty is False
 print_truthiness("Empty AClass", a)
 a.add("Thing")
 print_truthiness("nonempty AClass", a)
