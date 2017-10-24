@@ -109,3 +109,7 @@ venv.bak/
 
 # File explorer
 .DS_Store
+
+# package records files
+Pipfile
+Pipfile.lock
