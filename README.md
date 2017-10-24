@@ -22,3 +22,6 @@ Requirements: Python 3.6.3
 
     * pass a variable number of parameters to function
 ![output](http://uploadskill.s3.amazonaws.com/2.png)
+
+    * requests
+![output](http://uploadskill.s3.amazonaws.com/3.png)
